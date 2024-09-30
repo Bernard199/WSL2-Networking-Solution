@@ -17,6 +17,8 @@ Follow these steps to resolve the issue:
     - Run the following commands:
     ```bash
     sudo ip addr flush dev eth0
+    ```
+    ```bash
     sudo dhclient eth0
     ```
 
